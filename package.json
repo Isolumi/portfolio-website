@@ -1,13 +1,12 @@
 {
-  "name": "singleton",
+  "name": "hubert-xu",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --port 3001",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
