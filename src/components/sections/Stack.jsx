@@ -7,7 +7,7 @@ const Stack = () => {
 	return (
 		<section className='Stack section' id='stack'>
 			<div className='container'>
-				<h2 className='Stack-h2 section-head'>Stack.</h2>
+				<h2 className='Stack-h2 section-head'>Stack</h2>
 				<div className='container-sm'>
 					<div className='Stack-wrapper'>
 						{stack.map((list) => (

@@ -9,7 +9,7 @@ const Contact = () => {
 	return (
 		<section className='Contact section' id='contact'>
 			<div className='container'>
-				<h2 className='Contact-h2 section-head'>Contact.</h2>
+				<h2 className='Contact-h2 section-head'>Contact</h2>
 				<div className='container-sm'>
 					<h3 className='Contact-h3'>
 						<a href={`mailto:${email}`}>Get in touch!</a>

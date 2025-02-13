@@ -95,21 +95,46 @@ const stack = [
 		items: [
             { icon: icon.SiPython, name: 'Python'},
             { icon: icon.SiJava, name: 'Java'},
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiBootstrap, name: 'Bootstrap', },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
+			{ icon: icon.SiC, name: 'C' },
+			{ icon: icon.SiCplusplus, name: 'C++' },
 			{ icon: icon.SiTypescript, name: 'Typescript' },
-			{ icon: icon.SiReact, name: 'React', },
+			{ icon: icon.SiSwift, name: 'Swift' },
+            { icon: icon.SiHaskell, name: 'Haskell' },
 		],
 	},
 	{
-		name: 'Back End',
+		name: 'Libraries',
 		items: [
-			{ icon: icon.SiNodedotjs, name: 'NodeJS' },
-			{ icon: icon.SiDeno, name: 'Deno' },
-			{ icon: icon.SiMongodb, name: 'MongoDB', },
-			{ icon: icon.SiFirebase, name: 'Firebase', },
+			{ icon: icon.SiPytorch, name: 'PyTorch' },
+			{ icon: icon.SiNumpy, name: 'Numpy' },
+			{ icon: icon.SiOpencv, name: 'OpenCV' },
+			{ icon: icon.SiPandas, name: 'Pandas' },
+            { icon: icon.SiReact, name: 'React' },
+		],
+	},
+    {
+		name: 'Frameworks',
+		items: [
+			{ icon: icon.SiSpring, name: 'Spring' },
+			{ icon: icon.SiNextdotjs, name: 'NextJS' },
+			{ icon: icon.SiExpress, name: 'Express' },
+			{ icon: icon.SiAngular, name: 'Angular' },
+		],
+	},
+    {
+		name: 'Cloud Services',
+		items: [
+			{ icon: icon.SiGooglecloud, name: 'Google Cloud' },
+            { icon: icon.SiMicrosoftazure, name: 'Microsoft Azure' },
+		],
+	},
+    {
+		name: 'Databases',
+		items: [
+            { icon: icon.SiMongodb, name: 'MongoDB' },
+            { icon: icon.SiFirebase, name: 'Firebase' },
+            { icon: icon.SiPostgresql, name: 'PostgreSQL' },
+			{ icon: icon.SiMysql, name: 'MySQL' },
 		],
 	},
 ]
