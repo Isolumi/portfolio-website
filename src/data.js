@@ -1,4 +1,6 @@
 import * as icon  from 'react-icons/si'
+import uoftHacksIcon from '/src/assets/uofthacks.svg'
+import looboIcon from '/src/assets/looboinc.svg'
 
 const profile = {
 	name: 'Hubert Xu',
@@ -72,7 +74,7 @@ const experiences = [
             "Developed a Python script using Pillow and Pandas to parse hacker data from CSV files and generate custom name-tags with QR codes for efficient identification during the event."
 		],
 		Location: "Toronto, ON",
-		Icon: "/src/assets/uofthacks.svg"
+		Icon: uoftHacksIcon
 	},
     {
         Company: "Loobo Inc.",
@@ -84,7 +86,7 @@ const experiences = [
 			"Conducted comprehensive QA testing utilizing Amazon Alexa Qualification Tool for automated device testing, enabling efficient verification of application features, compatibility, and performance.",
 		],
         Location: "Richmond Hill, ON",
-		Icon: "/src/assets/looboinc.svg"
+		Icon: looboIcon
     },
 ];
 
