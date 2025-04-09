@@ -1,6 +1,7 @@
 import * as icon  from 'react-icons/si'
 import uoftHacksIcon from '/src/assets/uofthacks.svg'
 import looboIcon from '/src/assets/looboinc.svg'
+import medmeIcon from '/src/assets/medme.svg'
 
 const profile = {
 	name: 'Hubert Xu',
@@ -64,9 +65,19 @@ const projects = [
 ]
 
 const experiences = [
+    {
+		Company: "MedMe Health (YC W21)",
+		Role: "Software Engineer",
+		StartDate: "May 2025",
+		EndDate: "August 2025",
+		Description: [
+		],
+		Location: "Toronto, ON",
+		Icon: medmeIcon
+	},
 	{
 		Company: "UofTHacks",
-		Role: "Software Engineer",
+		Role: "VP Software Engineer",
 		StartDate: "May 2024",
 		EndDate: "Present",
 		Description: [

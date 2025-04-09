@@ -28,7 +28,11 @@ const Experience = () => {
                 }}
                 icon={
                   <div className="icon-wrapper">
-                    <img src={experience.Icon} alt="" className="svg-icon" />
+                    <img 
+                      src={experience.Icon} 
+                      alt="" 
+                      className={experience.Company.includes("MedMe Health (YC W21)") ? "medme-icon" : "svg-icon"} 
+                    />
                   </div>
                 }
               >
